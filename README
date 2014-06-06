@@ -18,3 +18,5 @@ while read line; do [[ -z $line ]] && exit 0 || echo $line; done
 
 
 
+To compile:
+$ gcc header.c -o header
