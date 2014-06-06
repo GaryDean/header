@@ -1,3 +1,14 @@
+/* header
+header.c
+
+Simple program that outputs all line from a file up to the first blank line.
+
+Useful for extracting just the header portion of an email file.
+
+Syntax: header {filename}
+
+There are no options.
+*/
 #include <stdio.h>
 
 void main(int argc, char* argv[]) {
