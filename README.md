@@ -13,7 +13,7 @@ Compared to doing this same operation in bash, header is twice as fast, which co
 
 Sample bash program for comparative purposes:
 
-#!/bin/bash
-exec < $1
-while read line; do [[ -z $line ]] && exit 0 || echo $line; done
+  #!/bin/bash
+  exec < $1
+  while read line; do [[ -z $line ]] && exit 0 || echo $line; done
 
